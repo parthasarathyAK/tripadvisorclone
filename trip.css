@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    border-radius: 100px;
+    width: 50px;
+}
+.sublogo{
+    border-radius: 100px;
+    width: 30px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:sticky;
+    top: 0px;
+    border-bottom: black solid 2px;
+    padding: 10px;
+    z-index: 2;
+}
+.navbar__s1{
+    display: flex;
+}
+.navbar__s2{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+.navbar__s2 p{
+    background-color:transparent;
+    padding: 5px;
+    border-radius: 30px;
+}
+.navbar__s2 p:hover{
+    background-color:lightgray;
+    padding: 5px;
+    border-radius: 30px;
+
+}
+.navbar__s3{
+    display: flex;
+    gap:10px;
+}
+.navbar__s4{
+    border: black 2px solid;
+    border-radius: 30px;
+    background-color:transparent;
+    width: 20%;
+    padding: 5px;
+    align-items: center;
+}
+.navbar__s4 input{
+    border: none;
+    background-color: transparent;
+}
+.navbar__s4 input:focus{
+    outline: none;
+}
+
+.category{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+.category p{
+    border-bottom: solid 2px transparent;
+    
+}
+.category p:hover{
+    border-bottom: black solid 2px;
+}
+.search{
+    display: flex;
+    border: black 2px solid;
+    margin-top: 30px;
+    border-radius: 30px;
+    width: 60%;
+    margin-left:20% ;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.search__s1 input{
+    border: none;
+    width: 200px;  
+}
+.search__s1 input:focus{
+    outline: none;
+}
+
+
+.search__s2{
+    background-color: cyan;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom:10px ;
+}
+.tripimage{
+    margin-top: 40px;
+}
+.tripimage img{
+    width: 75%;
+    margin-left:12%;
+}
+.travellerfav{
+    margin-top: 20px;
+    margin-left: 15%
+}
+.travellerfav__container{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+
+}
+.travellerfav__places{
+flex-basis: 20%;
+flex-grow: 1;
+position: relative;
+}
+.travellerfav__places img{
+    width: 100%;
+}
+
+.bottomleft{
+    position:absolute;
+    color:white;
+    left: 30px;
+    bottom: 10px;
+}
+.footer{
+    background-color: bisque;
+    color: black;
+    margin-top: 30px;
+    position: relative;
+    right:100px;
+    
+}
+.footerone{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap:50px;
+    padding: 30px;
+}
+
+.footertwo{
+    margin-left: 10%;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.footertwo__s1{
+    width: 70%;
+}
+.footertwo__s1-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footertwo__s1-links h4{
+   text-decoration: underline;
+}
+.footertwo__s2{
+position: relative;
+left: 100px;
+top: 100px;
+gap: 20px;
+display: flex;
+}
+.madras{
+    margin-top: 20px;
+    
+}
+.madras__container{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+}
+.madras__places{
+    flex-basis: 20%;
+flex-grow: 1;
+position: relative;
+}
+.madras__places img{
+    width:100%;
+    height: 50%;
+}
+.asiancities{
+    margin-top: 20px;
+}
+.asian__container{
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+
+}
+.asian__places{
+    flex-basis: 20%;
+    flex-grow: 1;
+    position: relative;
+}
+.asian__places img{
+    width:100%;
+    height:100%
+}
+.beachimg{
+    margin-top: 30px;
+ position: relative;
+}
+.beachimg img{
+    width:80%;
+    height: 20%;
+    
+}
+.explore{
+    margin-top: 30px;
+
+}
+.explore__container{
+    display: flex;
+    width:75%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    
+}
+.explore__places{
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+
+.dreamtrip{
+    margin-top: 1px;
+}
+.dreamtrip__container{
+    display: flex;
+    width:75%;
+    margin-top: 10px;
+    gap:20px;
+    justify-content: center;
+    left:40px;
+}
+.dreamtrip__places{
+    position: relative;
+    flex-basis: 25%;
+    flex-grow: 1;
+}
+.dreamtrip img{
+    width: 100%;
+    height: 100%;
+}
